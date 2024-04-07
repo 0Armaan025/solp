@@ -11,7 +11,7 @@ const Navbar = () => {
         >
           <a
             href="https://flowbite.com/"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+            className="flex items-center space-x-3 mb-6 rtl:space-x-reverse"
             style={{ background: "none" }}
           >
             <img
@@ -62,18 +62,18 @@ const Navbar = () => {
             >
               <li style={{ background: "none" }}>
                 <a
-                  style={{ background: "none", fontFamily: "Poppins" }}
+                  style={{ fontFamily: "Poppins" }}
                   href="#"
-                  className="block py-2 px-3  rounded md:p-0 text-white"
+                  className="block   rounded  text-white hover:bg-gray-600 p-2 bg-none"
                 >
                   About
                 </a>
               </li>
               <li style={{ background: "none" }}>
                 <a
-                  style={{ background: "none", fontFamily: "Poppins" }}
+                  style={{ fontFamily: "Poppins" }}
                   href="#"
-                  className="block py-2 px-3  rounded md:p-0 text-white"
+                  className="block   rounded  text-white hover:bg-gray-600 p-2 bg-none"
                 >
                   Pricing
                 </a>
@@ -88,8 +88,8 @@ const Navbar = () => {
                   <img
                     style={{ background: "none" }}
                     src="https://cdn-icons-png.flaticon.com/128/4333/4333609.png"
-                    height={30}
-                    width={30}
+                    height={40}
+                    width={40}
                   />
                 </a>
               </li>
